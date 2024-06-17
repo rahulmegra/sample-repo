@@ -168,8 +168,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("Click Me:) ", 30, -5);
-            ctx.fillText("Birthday Queen !", 28, 10);
+            ctx.fillText("Click Me For a Suprise:) ", 30, -5);
+            ctx.fillText("Birthday Queen ♛ !", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -457,7 +457,7 @@
             var ctx = s.tree.ctx;
             ctx.save();
         	ctx.beginPath();
-        	ctx.fillStyle = '#FFC0CB';
+        	ctx.fillStyle = '#FFFFFF';
             // ctx.shadowColor = 'rgb(35, 31, 32)';
             ctx.shadowBlur = 2;
         	ctx.moveTo(p.x, p.y);
